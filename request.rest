@@ -1,0 +1,28 @@
+GET http://localhost:8000/get
+
+###
+GET http://localhost:8000/get/61670614a715da7b54a24bfa
+
+
+###
+POST http://localhost:8000/get
+Content-Type: application/json
+
+{
+    "id": "003",
+    "nama": "Aisyah"
+}
+
+###
+PATCH http://localhost:8000/get/616705fda715da7b54a24bf7
+Content-Type: application/json
+
+{
+    "id": "001",
+    "nama": "Muhaidzir"
+}
+
+###
+DELETE http://localhost:8000/get/616705fda715da7b54a24bf7
+
+
